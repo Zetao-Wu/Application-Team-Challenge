@@ -1,0 +1,54 @@
+.navbar {
+  background-color: var(--gray-white);
+  box-shadow: none;
+  border-bottom: 1px solid var(--gray-offwhite);
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+
+/* Default logo size */
+.logoContainer img {
+  height: 50px;
+  width: auto;
+}
+
+/* Responsive Icon Sizes */
+@media (max-width: 1024px) {
+  .logoContainer img {
+    height: 45px;
+  }
+}
+
+@media (max-width: 768px) {
+  .logoContainer img {
+    height: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logoContainer img {
+    height: 35px;
+  }
+}
+
+@media (max-width: 360px) {
+  .logoContainer img {
+    height: 30px;
+  }
+}
+
+@media (max-width: 365px) {
+  .toolbar {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,361 @@
+.container {
+    width: 100%;
+  }
+  
+  .title {
+    color: var(--primary-navy);
+    font-size: 28px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+
+  .hr {
+    width: 98%;
+  }
+  
+  .tableContainer {
+    margin: 0 auto;
+    width: 85%;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: var(--gray-white);
+    max-height: 75vh; 
+    overflow-y: auto; 
+  
+  }
+  
+  .headerRow {
+    border-radius: 12px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top:10px;
+    z-index: 2; 
+  }
+  
+  .headerText1 {
+    font-weight: bold;
+    font-size: 18px;
+    color: var(--gray-labels);
+    flex: 1;
+    text-align: left;
+    font-weight: 100;
+    padding-left: 10px;
+  }
+  
+  .headerText2 {
+    font-weight: bold;
+    font-size: 18px;
+    color: var(--gray-labels);
+    flex: 1;
+    text-align: left;
+    padding-right: 200px;
+    font-weight: 100;
+  }
+  
+  
+  .icon {
+    color: var(--primary-blue);
+    vertical-align: middle;
+  }
+  
+  .customBody {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .customRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--gray-white);
+    border: 1px solid #E6E6E6;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    margin-bottom: 15px;
+    transition: all 0.3s ease-in-out;
+    width: 97%;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .customRow:hover {
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+    outline: 5px solid var(--primary-blue50); 
+    transform: scale(1.01); 
+  }
+  
+  .roundedCellLeft {
+    width: 76%;
+    color: var(--gray-body);
+  }
+  .roundedCellRight {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    width: 24%;
+    color: var(--primary-navy);
+  }
+
+  .participantText,
+  .icdCount {
+    font-size: 18px;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .icdCount {
+    text-align: right;
+  }
+  
+.diagnosisItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.icdCode {
+  font-weight: bold;
+  color: var(--gray-labels);
+}
+
+.icdLink {
+  cursor: pointer;
+  color: var(--primary-blue);
+  text-decoration: underline;
+}
+.icdLink:hover {
+  color: var(--primary-navy);
+}
+
+.modalContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.modalContent {
+  width: 100vw;
+  height: 100vh;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #F9F9F9;
+}
+
+.backButton {
+  position: absolute;
+  top: 40px;
+  left: 90px;
+  background-color: var(--primary-blue);
+  color: white;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 8px;
+}
+
+.diagnosisSection {
+  width: 50%;
+  text-align: center;
+  border: solid 1px #E6E6E6;
+  border-radius: 15px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+  padding: 40px;
+  background-color: var(--gray-white);
+  max-height: 75vh; 
+  overflow-y: auto; 
+}
+
+.participantName {
+  font-size: 28px;
+  font-weight: 500;
+  color: var(--gray-body);
+  text-align: left;
+}
+
+.hr {
+  width: 100%;
+  border: 0.2px solid var(--gray-labels);
+}
+
+.icdCountHeader {
+  text-align: left;
+  font-size: 18px;
+  color: var(--gray-labels);
+  margin-bottom: 15px;
+  font-weight: 300;
+}
+
+.diagnosisList {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.diagnosisItem {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--gray-input-back);
+  padding: 25px;
+}
+
+.diagnosisText {
+  width: 80%;
+  color: var(--gray-black);
+  font-size: 18px;
+  text-align: left;
+}
+
+.icdCode {
+  text-align: left;
+  width: 20%;
+  font-weight: bold;
+  color: var(--gray-labels);
+}
+
+
+.sortModalContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sortModalContent {
+  width: 400px;
+  padding: 30px;
+  background-color: var(--gray-white);
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.sortModalTitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.filterLabel {
+  font-size: 18px;
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.cancelButton {
+  background-color: var(--gray-labels);
+  color: white;
+  font-size: 14px;
+  padding: 7px 15px;
+  border-radius: 8px;
+}
+
+.cancelButton:hover{
+  background-color: var(--primary-blue);
+}
+
+.speakButton {
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 10px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.speakButton:hover {
+  background-color: #519cee;
+}
+
+@media (max-width: 768px) {
+  .headerText1,
+  .headerText2 {
+    font-size: 16px;
+    padding: 5px;
+  }
+
+  .customRow {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .diagnosisSection {
+    width: 80%;
+    height: 55vh;
+    padding: 20px;
+  }
+
+  .participantName {
+    font-size: 22px;
+  }
+
+  .diagnosisItem {
+    padding: 15px;
+  }
+
+  .diagnosisText {
+    font-size: 16px;
+  }
+
+  .icdCode {
+    font-size: 14px;
+  }
+
+  .sortModalContent {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .cancelButton {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+
+  .speakButton {
+    padding: 5px 8px;
+    font-size: 12px;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .backButton {
+    font-size: 12px;
+    padding: 6px 15px;
+    top: 15px;
+    left: 40%;
+  }
+}
