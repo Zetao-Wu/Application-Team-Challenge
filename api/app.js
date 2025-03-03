@@ -5,6 +5,7 @@ const { participants } = require("./data");
 const app = express();
 
 app.use(cors());
+app.use(express.json()); 
 
 app.get("/participants", (_, res) => {
   res.json(participants);

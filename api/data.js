@@ -1,4 +1,4 @@
-const faker = require("faker");
+const { faker } = require("@faker-js/faker");
 const { ICD_CODE } = require("./constants/icdCode");
 
 function makeDiagnosis(numDiagnoses) {
