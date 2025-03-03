@@ -1,14 +1,21 @@
 {
   "name": "api",
   "version": "1.0.0",
-  "description": "simple api ",
+  "description": "simple api",
   "main": "index.js",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "faker": "^5.5.3",
     "openai": "^4.86.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   }
 }
