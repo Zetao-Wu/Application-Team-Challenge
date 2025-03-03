@@ -1,3 +1,4 @@
+
 .container {
     width: 100%;
   }
@@ -18,15 +19,16 @@
   
   .tableContainer {
     margin: 0 auto;
-    width: 85%;
-    padding: 20px;
+    width: 90%; 
+    max-width: 1200px;
+    padding: 24px;
     border-radius: 12px;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
     background-color: var(--gray-white);
-    max-height: 75vh; 
-    overflow-y: auto; 
-  
+    max-height: 75vh;
+    overflow-y: auto;
   }
+  
   
   .headerRow {
     border-radius: 12px;
@@ -73,6 +75,8 @@
   }
   
   .customRow {
+    width: 96%;
+    max-width: 1100px; 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -81,18 +85,16 @@
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
     margin-bottom: 15px;
+    padding: 15px 20px; 
     transition: all 0.3s ease-in-out;
-    width: 97%;
-    padding: 10px;
-    padding-top: 20px;
-    padding-bottom: 20px;
   }
   
   .customRow:hover {
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
-    outline: 5px solid var(--primary-blue50); 
-    transform: scale(1.01); 
+    outline: 3px solid var(--primary-blue50);
+    transform: scale(1.02); 
   }
+  
   
   .roundedCellLeft {
     width: 76%;

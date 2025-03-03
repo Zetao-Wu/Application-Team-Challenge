@@ -31,7 +31,7 @@ interface Participant {
   diagnoses: Diagnosis[];
 }
 
-const API_URL = "http://localhost:5001/participants";
+const API_URL = "https://application-api-6yqe.onrender.com/";
 const ICD_API_URL = "https://clinicaltables.nlm.nih.gov/api/icd10cm/v3/search";
 
 const ParticipantsTable: React.FC = () => {
