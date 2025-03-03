@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { AppBar, Toolbar, Box } from "@mui/material";
 import Logo from "../../../assets/logo_IntusCare.png";
@@ -13,6 +13,11 @@ declare global {
 }
 
 const Navbar = () => {
+  const [hydrated, setHydrated] = useState(false);
+  useEffect(() => {
+    setHydrated(true);
+  }, []);
+
   useEffect(() => {
     if (!document.querySelector("script[src*='translate.google.com']")) {
       const script = document.createElement("script");
@@ -39,6 +44,8 @@ const Navbar = () => {
       window.googleTranslateElementInit();
     }
   }, []);
+
+  if (!hydrated) return null;
 
   return (
     <>

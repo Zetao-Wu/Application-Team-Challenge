@@ -1,7 +1,13 @@
 .navbar {
-  background-color: var(--gray-white);
+  background-color: #ffffff !important; 
+  background-color: var(--gray-white) !important;
   box-shadow: none;
   border-bottom: 1px solid var(--gray-offwhite);
+}
+
+.MuiAppBar-root {
+  background-color: transparent !important;
+  box-shadow: none !important;
 }
 
 .toolbar {
@@ -16,13 +22,11 @@
   align-items: center;
 }
 
-/* Default logo size */
 .logoContainer img {
   height: 50px;
   width: auto;
 }
 
-/* Responsive Icon Sizes */
 @media (max-width: 1024px) {
   .logoContainer img {
     height: 45px;
