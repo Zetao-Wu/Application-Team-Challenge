@@ -1,5 +1,7 @@
 Please load the address for the backend/api first: https://application-api-6yqe.onrender.com/
+
 Then, run the address for frontend: https://application-team-challenge-pzgc-bxjbvvy74-zetao-wus-projects.vercel.app/
+
 I believe that Vercel supports Next.js much more smoothly than Render and Render supports Express much more smoothly than Vercel, thus the two different hosting platforms.
 
 In terms of tech stack, I attempted to stick with the team's stack, which included TypeScript, React, Next.js, Material-UI and MongoDB.
