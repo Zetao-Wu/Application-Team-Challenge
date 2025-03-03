@@ -7,7 +7,7 @@ const app = express();
 app.use(cors());
 app.use(express.json()); 
 
-app.get("/participants", (_, res) => {
+app.get("/", (_, res) => {
   res.json(participants);
 });
 
