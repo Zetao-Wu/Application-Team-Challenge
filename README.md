@@ -8,7 +8,7 @@ I spent a total of around 26 hours to implement all features.
 
 In terms of tech stack, I attempted to stick with the team's stack, which included TypeScript, React, Next.js, Material-UI and MongoDB.
 
-Overall the project attempte to follow the Figma design as much as possible but with a few tweaks. I have optimized the application in consideration of better accessibility and efficiency for a wider variety of individuals. I tried to keep the changes on the UI as minimal as possible in consideration of respecting the design as much as possible. Below are few functionalities I have made:
+Overall the project attempte to follow the Figma design as much as possible but with a few tweaks. I have optimized the application in consideration of better accessibility and efficiency for a wider variety of individuals. I tried to keep the changes on the UI as minimal as possible in consideration of respecting the design as much as possible. Below are few extra functionalities I have added:
 
  - Search Bar: Instead of the header for the Participant Name, I have changed that part to a search bar, where we can directly search for a participant based on their name. This can more efficiently lookup by name rather than scrolling and finding the correct participant, which can be time consuming given the amount of data.
 
