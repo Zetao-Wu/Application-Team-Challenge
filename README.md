@@ -1,4 +1,4 @@
-Please load the address for the backend/api first: https://application-api-6yqe.onrender.com/
+Please load the address for the backend/api first (might take a minute or so): https://application-api-6yqe.onrender.com/
 
 Then, run the address for frontend: https://application-team-challenge-pzgc-bxjbvvy74-zetao-wus-projects.vercel.app/
 
