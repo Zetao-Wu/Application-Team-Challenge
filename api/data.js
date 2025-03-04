@@ -25,7 +25,7 @@ function makeParticipants(numParticipants) {
       gender: faker.random.arrayElement(["MALE", "FEMALE", "NON-BINARY"]),
       phoneNumber: faker.datatype.number({ min: 1000000000, max: 9999999999 }),
       patientNotes: faker.random.arrayElement([faker.lorem.text(), null]),
-      diagnoses: makeDiagnosis(faker.datatype.number({ min: 0, max: 20 })),    });
+      diagnoses: makeDiagnosis(faker.datatype.number({ min: 0, max: 20 })),
     });
   }
 
